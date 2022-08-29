@@ -1,0 +1,43 @@
+.End{
+    padding-bottom: 50px;
+}
+.form-group{
+    padding-bottom: 20px;
+}
+.petals{
+    margin-top: 35px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(65deg, rgb(6, 52, 177), #81017b);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+h6{
+    padding-top: 20px;
+    font-size: 35px;
+}
+.contact{
+    font-size: 30px;
+}
+.info{
+    padding-top: 25px;
+    font-size: 22px;
+}
+.tel{
+    font-size: 22px;
+}
+.email{
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+.contacts{
+    margin-bottom: 25px;
+}
+#map{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 70px;
+}

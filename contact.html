@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/petals.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="images/jewel logo_prev_ui.png" type="image/x-icon">
+    <title>Contact Us</title>
+</head>
+<body onload='document.form1.text1.focus()'>
+        <!-- Beginning of Header section -->
+        <header class="header">
+            <div class="wrapper" id="logo">
+              <a href="index.html"
+                ><img
+                  src="images/jewel logo_prev_ui.png"
+                  width="140px"
+                  height="100px"
+              /></a>
+              <nav>
+                <div class="toggleMenu" onclick="menuToggle()"></div>
+                <ul class="navigation">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#about">Mission</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+            <!-- End of Header Section -->
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h6 class="petals">Get in touch</h6>
+                    <h5 class="contact">Contact Us today through any of <br>
+                    the details below.
+                    </h5>
+                    <p class="info"> 235c, werjfhr blanket street, los angeles , california</p>
+                    <p class="tel">Tel: +23485768657</p>
+                    <p class="email">Email: info@yahoo.com</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1907597.862555682!2d10.792027088909721!3d8.369844317944462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1661762260972!5m2!1sen!2sng" 
+                 width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+            
+    <!-- Beginning of footer section -->
+    <footer>
+      <div class="footer-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h5>Jewels Bible Club</h5>
+              <p class="footer-cont">
+                Jewels' Bible Club is a program designed to teach children the
+                Word of God and to share the Gospel in ways they can understand
+                and respond.It is a place where children can come and have a
+                good time learning about God and His great love for them.
+              </p>
+            </div>
+            <div class="col-lg-3" id="mid">
+              <h5>Quick Links</h5>
+              <ul class="quick-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3" id="right">
+              <h5>Our Mission</h5>
+              <ul class="footer-contact">
+                <li>
+                  <a href="tel:+23485743983">
+                    <i class="fas fa-phone-square-alt"></i>
+                    +23485743983
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto: abc@yahoo.com">
+                    <i class="fas fa-envelope"></i>
+                    abc@gmail.com
+                  </a>
+                </li>
+                <li id="address">
+                  <a
+                    href="https://goo.gl/maps/MdaiPmq6Cnnvm8Kx5"
+                    target="_blank"
+                  >
+                    <i class="fa-solid fa-location-pin"></i>
+                    235c, werjfhr blanket street, los angeles , california
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5>Stay Connected</h5>
+                        <div class="socials">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href="#" target="_self"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_self"><i class="fab fa-youtube"></i></a>
+                        </div>
+            </div>
+            <div class="row footer-after">
+              <div class="col-lg-12">
+                <p>
+                  Copyright &copy; All rights reserved | This website is made
+                  with <i class="fa fa-heart" aria-hidden="true"></i> by
+                  <a
+                    href="#"
+                    target="_blank"
+                    style="text-decoration: none"
+                    >Me<i class="fa-brands fa-telegram"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <script>
+        function menuToggle() {
+          const toggleMenu = document.querySelector(".toggleMenu");
+          const navigation = document.querySelector(".navigation");
+          toggleMenu.classList.toggle("active");
+          navigation.classList.toggle("active");
+        }
+        // setTimeout(function(){
+        //       $('.loader_bg').fadeToggle();
+        //   }, 1500);
+  
+        $(window).on("load", function () {
+          $(".loader-bg").fadeOut("slow");
+        });
+        $("#submitForm").click(function() {
+      alert("The Form has been Submitted.");
+        });
+        functionvalidateEmail(inputText)
+{
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(inputText.value.match(mailformat))
+  {
+    alert("Valid email address!");
+document.form1.text1.focus();
+returntrue;
+  }
+else
+  {
+    alert("Invalid email address!");
+document.form1.text1.focus();
+returnfalse;
+  }
+}
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: 6.646476,  lng: 3.373864 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+
+window.initMap = initMap;
+
+      </script>
+</body>
+</html>
